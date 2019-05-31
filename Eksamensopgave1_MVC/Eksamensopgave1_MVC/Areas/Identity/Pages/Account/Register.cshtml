@@ -1,0 +1,86 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h4>Create a new account.</h4>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Input.Email"></label>
+                <input asp-for="Input.Email" class="form-control" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Password"></label>
+                <input asp-for="Input.Password" class="form-control" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.ConfirmPassword"></label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Fornavn"></label>
+                <input asp-for="Input.Fornavn" class="form-control" />
+                <span asp-validation-for="Input.Fornavn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Efternavn"></label>
+                <input asp-for="Input.Efternavn" class="form-control" />
+                <span asp-validation-for="Input.Efternavn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.DBFnummer"></label>
+                <input asp-for="Input.DBFnummer" class="form-control" />
+                <span asp-validation-for="Input.DBFnummer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.AddresseLinje1"></label>
+                <input asp-for="Input.AddresseLinje1" class="form-control" />
+                <span asp-validation-for="Input.AddresseLinje1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.AddresseLinje2"></label>
+                <input asp-for="Input.AddresseLinje2" class="form-control" />
+                <span asp-validation-for="Input.AddresseLinje2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.Postnummer"></label>
+                <input asp-for="Input.Postnummer" class="form-control" />
+                <span asp-validation-for="Input.Postnummer" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Input.By"></label>
+                <input asp-for="Input.By" class="form-control" />
+                <span asp-validation-for="Input.By" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
+
+@*
+
+    public string Fornavn { get; set; }
+            public string Efternavn { get; set; }
+            [MaxLength(5)]
+            public string DBFnummer { get; set; }
+
+            public string AddresseLinje1 { get; set; }
+            public string AddresseLinje2 { get; set; }
+            public uint Postnummer { get; set; }
+            public string By { get; set; }
+    *@

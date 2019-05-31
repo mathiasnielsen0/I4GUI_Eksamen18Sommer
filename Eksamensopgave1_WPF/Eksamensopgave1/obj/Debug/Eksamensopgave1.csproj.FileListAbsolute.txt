@@ -1,0 +1,17 @@
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\bin\Debug\Eksamensopgave1.exe.config
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\bin\Debug\Eksamensopgave1.exe
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\bin\Debug\Eksamensopgave1.pdb
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.csprojAssemblyReference.cache
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\MainWindow.g.cs
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\App.g.cs
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1_MarkupCompile.cache
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1_MarkupCompile.lref
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\MainWindow.baml
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.g.resources
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.Properties.Resources.resources
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.csproj.GenerateResource.cache
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.csproj.CoreCompileInputs.cache
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.exe
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\Eksamensopgave1.pdb
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\AddRecordWindow.g.cs
+C:\Users\Mathias\source\repos\Eksamensopgave1\Eksamensopgave1\obj\Debug\AddRecordWindow.baml

@@ -1,0 +1,54 @@
+﻿@model Eksamensopgave1_MVC.Models.Varro
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Varro</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Bistade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Bistade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DatoRegistreret)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DatoRegistreret)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AntalMider)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AntalMider)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ObservationsVarighed)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ObservationsVarighed)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Notater)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Notater)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ApplicationUser)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ApplicationUser.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.VarroId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
